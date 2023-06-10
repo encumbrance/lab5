@@ -34,6 +34,7 @@ always #(`CYCLE_TIME/2) CLK = ~CLK;
 
 initial begin
     //handle = $fopen("P4_Result.dat");
+    $display("galapaji");
     CLK = 0;
     RST = 0;
     count = 0;
